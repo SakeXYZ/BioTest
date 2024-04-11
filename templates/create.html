@@ -1,0 +1,16 @@
+{% extends  'base.html' %}
+{% block title %}
+Регистер записи
+{% endblock %}
+
+{% block contend %}
+
+
+<form method="post" class="form-control">
+    <h1>Регистер записи </h1>
+    <input type="text" name="title" placeholder="Введите заголовок"></input>
+    <input type="text" name="text" placeholder="Введите текст"></input>
+    <button class="btn btn-success" type="submit">Добавить</button>
+
+</form>
+{% endblock %}

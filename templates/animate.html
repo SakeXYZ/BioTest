@@ -1,0 +1,51 @@
+{% extends  'base.html' %}
+{% block title %}
+Регистер записи
+{% endblock %}
+
+{% block contend %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт 1 к 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .content {
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Заголовок сайта</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Ссылка 1</a></li>
+                <li><a href="#">Ссылка 2</a></li>
+                <li><a href="#">Ссылка 3</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <p>Текст вашего сайта здесь.</p>
+        </div>
+        <footer>
+            <p>© 2024 Ваше название</p>
+        </footer>
+    </div>
+</body>
+</html>
+{% endblock %}
