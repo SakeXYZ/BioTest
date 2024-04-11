@@ -38,6 +38,7 @@ def base():
 def animate():
     return render_template('animate.html')
 
+
 @app.route('/create', methods=['POST', 'GET'])
 def create():
     if request.method == 'POST':
